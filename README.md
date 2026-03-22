@@ -1,4 +1,4 @@
-This program generates a print-ready PDF file containing cards for the game HITSTER (text and QR codes). It uses a Spotify playlist as input.
+This program generates a print-ready PDF file containing cards similar to the game HITSTER (text and QR codes). It uses a Spotify playlist as input.
 
 To use the code, you need access to the Spotify API:
 Go to https://developer.spotify.com --> log in with your Spotify account --> “Create App”
@@ -6,7 +6,7 @@ Go to https://developer.spotify.com --> log in with your Spotify account --> “
 --> You will now see your Client ID and Client Secret, which you must enter in hitster.py
 
 
-Hitster.py consists of three cells:
+Hltster.py consists of three cells:
 1. Select the card parameters, such as size, text color, and font size. You can also simply use the default settings
 2. Displays a preview of what a card will look like with the current settings
 3. Creates the print-ready PDF file in a new subfolder named “print_pdf”. The input is a link to a Spotify playlist that YOU OWN.
